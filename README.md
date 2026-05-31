@@ -181,9 +181,6 @@ Cross-validation: 5-fold KFold, metrics: R², RMSE, MAE.
 ### Model Comparison — R²
 ![Model Comparison R2](model_comparison_r2.png)
 
-### Model Comparison — RMSE
-![Model Comparison RMSE](model_comparison_rmse.png)
-
 ### Predictions vs Actuals
 ![Realistic Predictions](realistic_predictions.png)
 
