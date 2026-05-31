@@ -169,23 +169,23 @@ Cross-validation: 5-fold KFold, metrics: R², RMSE, MAE.
 
 ## Results & Visualizations
 
+### Correlation Heatmap
+![Correlation Heatmap](correlation_heatmap.png)
+
+### Model Comparison — Heatmap
+![Model Comparison Heatmap](model_comparison_heatmap.png)
+
+### Feature Correlations
+![Feature Correlations](feature_correlations.png)
+
 ### Model Comparison — R²
 ![Model Comparison R2](model_comparison_r2.png)
 
 ### Model Comparison — RMSE
 ![Model Comparison RMSE](model_comparison_rmse.png)
 
-### Model Comparison — Heatmap
-![Model Comparison Heatmap](model_comparison_heatmap.png)
-
 ### Predictions vs Actuals
 ![Realistic Predictions](realistic_predictions.png)
-
-### Feature Correlations
-![Feature Correlations](feature_correlations.png)
-
-### Correlation Heatmap
-![Correlation Heatmap](correlation_heatmap.png)
 
 ### Molecule Visualizations
 Sample molecules from the dataset (generated with RDKit):
