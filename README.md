@@ -8,6 +8,8 @@ Machine learning pipeline to predict **Organic Photovoltaic (OPV)** solar cell p
 - **JSC (mA/cm²)** — Short Circuit Current Density
 - **FF (%)** — Fill Factor
 
+**Th work still in progress, the dataset wars colleted manually form experimental data (223 row so far)**
+
 ---
 
 ## Project Structure
@@ -187,7 +189,6 @@ Cross-validation: 5-fold KFold, metrics: R², RMSE, MAE.
 
 ### Molecule Visualizations
 Sample molecules from the dataset (generated with RDKit):
-## The work is still in progress 
 
 ![Molecule 1](molecule_images/molecule_0001.png)
 ![Molecule 2](molecule_images/molecule_0002.png)
