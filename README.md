@@ -15,13 +15,15 @@ Machine learning pipeline to predict **Organic Photovoltaic (OPV)** solar cell p
 ```
 .
 ├── data/
-│   ├── data_cleaned_aromatic.csv       # Cleaned dataset filtered for aromatic systems
+│   ├── HTM_dataset_template.csv        # Raw dataset (donor–acceptor pairs + measured OPV properties)
+│   ├── data_cleaned.csv                # Cleaned version of the dataset
+│   ├── data_cleande_aromatic.csv       # Cleaned dataset filtered for aromatic systems
 │   ├── data_aromatic_converted.csv     # Numeric-converted final training dataset
 │   ├── new_molecules.csv               # New molecules to predict (input)
 │   └── new_molecules_predictions.csv   # Prediction output for new molecules
 │
 ├── scripts/
-│   ├── aromatric.py             # Molecule filtering & aromaticity check
+│   ├── aromatric-claude.py             # Molecule filtering & aromaticity check
 │   ├── diagnostic_data_check.py        # Data quality diagnostics
 │   ├── enhanced_structural_features_FIXED.py  # RDKit feature extraction from SMILES + Ridge/XGBoost training
 │   ├── heat_map_train_test_XGboost.py  # XGBoost train/test heatmap visualization
@@ -53,7 +55,7 @@ Machine learning pipeline to predict **Organic Photovoltaic (OPV)** solar cell p
 Raw CSV (SMILES + measured OPV)
         │
         ▼
-aromatric.py          ← filter molecules, check aromaticity
+aromatric-claude.py          ← filter molecules, check aromaticity
 diagnostic_data_check.py     ← data quality check
         │
         ▼
@@ -122,7 +124,7 @@ PNG images are saved to `molecule_images/`.
 
 ## Dataset Format
 
-The input CSV (`data_cleaned_aromatic.csv`) uses `;` as separator and contains:
+The input CSV (`HTM_dataset_template.csv`) uses `;` as separator and contains:
 
 | Column | Description |
 |---|---|
@@ -160,3 +162,36 @@ The input CSV (`data_cleaned_aromatic.csv`) uses `;` as separator and contains:
 | KNN | Distance-based baseline |
 
 Cross-validation: 5-fold KFold, metrics: R², RMSE, MAE.
+
+---
+
+## Results & Visualizations
+
+### Model Performance Summary
+![Model Performance Summary](model_performance_summary.png)
+
+### Model Comparison — R²
+![Model Comparison R2](model_comparison_r2.png)
+
+### Model Comparison — RMSE
+![Model Comparison RMSE](model_comparison_rmse.png)
+
+### Model Comparison — Heatmap
+![Model Comparison Heatmap](model_comparison_heatmap.png)
+
+### Predictions vs Actuals
+![Realistic Predictions](realistic_predictions.png)
+
+### Feature Correlations
+![Feature Correlations](feature_correlations.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](correlation_heatmap.png)
+
+### Molecule Visualizations
+Sample molecules from the dataset (generated with RDKit):
+
+![Molecule 1](molecule_images/molecule_0001.png)
+![Molecule 2](molecule_images/molecule_0002.png)
+![Molecule 3](molecule_images/molecule_0003.png)
+![Molecule 4](molecule_images/molecule_0004.png)
