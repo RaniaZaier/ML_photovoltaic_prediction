@@ -118,7 +118,7 @@ Output is saved to `new_molecules_predictions.csv`.
 python smiles_png.py
 ```
 
-PNG images are saved to `molecule_images/`.
+PNG images are saved to `Data/molecule_images/`.
 
 ---
 
