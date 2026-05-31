@@ -167,9 +167,6 @@ Cross-validation: 5-fold KFold, metrics: R², RMSE, MAE.
 
 ## Results & Visualizations
 
-### Model Performance Summary
-![Model Performance Summary](model_performance_summary.png)
-
 ### Model Comparison — R²
 ![Model Comparison R2](model_comparison_r2.png)
 
