@@ -2,7 +2,7 @@
 
 Machine learning pipeline to predict **Organic Photovoltaic (OPV)** solar cell performance properties from donor–acceptor molecular pairs described by SMILES strings.
 
-**The work is still in progress for incresing size of the dataset for better results, the dataset was collected manually form experimental data (135 row used so far from 227, I used only systems with PCE between 8 and 17%)**
+**The work is still in progress for increasing the size of the dataset for better results, the dataset was collected manually form experimental data (135 row used so far from 227, I used only systems with PCE between 8 and 17%)**
 
 **Predicted targets:**
 - **PCE (%)** — Power Conversion Efficiency
