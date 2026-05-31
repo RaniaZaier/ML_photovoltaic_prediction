@@ -1,6 +1,7 @@
 # OPV Property Prediction — ML from SMILES
 
 Machine learning pipeline to predict **Organic Photovoltaic (OPV)** solar cell performance properties from donor–acceptor molecular pairs described by SMILES strings.
+
 **The work is still in progress, the dataset was collected manually form experimental data (135 row used so far from 227, we used systems with PCE between 8 and 17%)**
 
 **Predicted targets:**
