@@ -23,7 +23,7 @@ Machine learning pipeline to predict **Organic Photovoltaic (OPV)** solar cell p
 │   └── new_molecules_predictions.csv   # Prediction output for new molecules
 │
 ├── scripts/
-│   ├── aromatric-claude.py             # Molecule filtering & aromaticity check
+│   ├── aromatric.py             # Molecule filtering & aromaticity check
 │   ├── diagnostic_data_check.py        # Data quality diagnostics
 │   ├── enhanced_structural_features_FIXED.py  # RDKit feature extraction from SMILES + Ridge/XGBoost training
 │   ├── heat_map_train_test_XGboost.py  # XGBoost train/test heatmap visualization
