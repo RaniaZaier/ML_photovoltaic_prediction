@@ -1,0 +1,4 @@
+D_Name;D_SMILES;D_HOMO;D_LUMO;D_lamda_max;A_HOMO;A_LUMO;A_lamda_max
+Example_Mol_1;CCCCCCCCc1cc(C)c(C)cc1C;-5.25;-3.45;580;-5.65;-4.1;830
+Example_Mol_2;c1ccc(C2=CC=C(c3ccccc3)C2)cc1;-5.35;-3.55;560;-5.7;-4.08;825
+Example_Mol_3;CCc1ccc(C2CCC(c3ccc(CC)cc3)C2)cc1;-5.15;-3.35;590;-5.6;-4.15;835
