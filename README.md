@@ -8,7 +8,7 @@ Machine learning pipeline to predict **Organic Photovoltaic (OPV)** solar cell p
 - **JSC (mA/cm²)** — Short Circuit Current Density
 - **FF (%)** — Fill Factor
 
-**Th work still in progress, the dataset wars colleted manually form experimental data (135 row used so far from 227, we used systems with PCE between 8 and 17%)**
+**Th work is still in progress, the dataset was collected manually form experimental data (135 row used so far from 227, we used systems with PCE between 8 and 17%)**
 
 ---
 
