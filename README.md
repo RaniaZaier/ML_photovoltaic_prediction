@@ -55,7 +55,7 @@ Machine learning pipeline to predict **Organic Photovoltaic (OPV)** solar cell p
 Raw CSV (SMILES + measured OPV)
         │
         ▼
-aromatric-claude.py          ← filter molecules, check aromaticity
+aromatric.py          ← filter molecules, check aromaticity
 diagnostic_data_check.py     ← data quality check
         │
         ▼
@@ -118,7 +118,7 @@ Output is saved to `new_molecules_predictions.csv`.
 python smiles_png.py
 ```
 
-PNG images are saved to `Data/molecule_images/`.
+PNG images are saved to `data/molecule_images/`.
 
 ---
 
@@ -190,6 +190,7 @@ Cross-validation: 5-fold KFold, metrics: R², RMSE, MAE.
 
 ### Molecule Visualizations
 Sample molecules from the dataset (generated with RDKit):
+## The work is still in progress
 
 ![Molecule 1](molecule_images/molecule_0001.png)
 ![Molecule 2](molecule_images/molecule_0002.png)
