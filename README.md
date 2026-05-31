@@ -187,7 +187,7 @@ Cross-validation: 5-fold KFold, metrics: R², RMSE, MAE.
 
 ### Molecule Visualizations
 Sample molecules from the dataset (generated with RDKit):
-## The work is still in progress
+## The work is still in progress 
 
 ![Molecule 1](molecule_images/molecule_0001.png)
 ![Molecule 2](molecule_images/molecule_0002.png)
